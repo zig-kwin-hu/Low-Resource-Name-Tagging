@@ -4,19 +4,25 @@ This repository shows the implementation of the system described in the paper
 [Low-Resource Name Tagging Learned with Weakly Labeled Data](https://www.aclweb.org/anthology/D19-1025.pdf).
 
 ## Environment
+
 python = 2.7
+
 torch = 0.4.1
 
 
 ## Dataset
+
 We collect weakly labeled data from wiki in Mongolian (mn). We select sentences with highest quality as validation set and test set.
 
 ## Directory
-files/ : input files, you can download and unzip it from [here]
+
+files/ : input files, you can download and unzip it from [here]()
     train.txt local_train.txt nofuzzy_train.txt valid.txt test.txt : examples for training, validation and test.
     entity_dict word_idf_dict mnalphabet : pre-generated files for training.
     word_embedding : word embedding file.
+
 code/ : implementation fo our model.
+
 log/ : log files of traing and evaluation.
 
 ## Training and Evaluation
