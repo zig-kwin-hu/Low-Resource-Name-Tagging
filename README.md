@@ -16,7 +16,7 @@ We collect weakly labeled data from wiki in Mongolian (mn). We select sentences 
 
 ## Directory
 
-files/ : input files, you can download and unzip it from [here](...)
+files/ : input files, you can unzip it from files.zip.
 
     train.txt local_train.txt nofuzzy_train.txt valid.txt test.txt : examples for training, validation and test.
 
